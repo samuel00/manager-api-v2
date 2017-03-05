@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>sml.mestrado.ufpa</groupId>
+		<artifactId>projeto-manager-v2</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>api-v2</artifactId>
+	<packaging>war</packaging>
+	<name>api-v2</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>sml.mestrado.ufpa</groupId>
+			<artifactId>core-api-v2</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>sml.mestrado.ufpa</groupId>
+			<artifactId>manager-api-v2</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>api-v2</finalName>
+		<plugins>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>aspectj-maven-plugin</artifactId>
+				<version>1.9</version>
+				<configuration>
+					<complianceLevel>1.8</complianceLevel>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+					<aspectLibraries>
+						<aspectLibrary>
+							<groupId>sml.mestrado.ufpa</groupId>
+							<artifactId>manager-api-v2</artifactId>
+						</aspectLibrary>
+					</aspectLibraries>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjtools</artifactId>
+						<version>1.8.4</version>
+					</dependency>
+					<dependency>
+						<groupId>sml.mestrado.ufpa</groupId>
+						<artifactId>manager-api-v2</artifactId>
+						<version>1.0</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8080/manager/text</url>
+					<server>tomcatserver</server>
+					<username>administrador</username>
+					<password>admin</password>
+					<path>/api/v2</path>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
