@@ -1,3 +1,10 @@
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/modelo/Erro.java
 /home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/projeto/manager/App.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/servicos/AspectManagerService.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/modelo/Requisicao.java
 /home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/manager/Loggable.java
 /home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/manager/ApectManagerAPI.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/util/ConverteUtil.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/repositorio/AspectManagerRepositorio.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/modelo/Parametro.java
+/home/samuel/workspace_mestrado/projeto-manager-v2/manager-api-v2/src/main/java/sml/mestrado/ufpa/repositorio/AbstractRepositorio.java

@@ -1,3 +1,4 @@
+sml/mestrado/ufpa/rest/CustomerRestController.class
 sml/mestrado/ufpa/configuracoes/ConfiguracaoDaAplicacao.class
 sml/mestrado/ufpa/configuracoes/InicializadorDaAplicacao.class
-sml/mestrado/ufpa/rest/CustomerRestController.class
+sml/mestrado/ufpa/configuracoes/HibernateConfiguration.class

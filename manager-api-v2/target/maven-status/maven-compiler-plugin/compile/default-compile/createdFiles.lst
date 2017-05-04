@@ -1,3 +1,10 @@
-sml/mestrado/ufpa/manager/ApectManagerAPI.class
+sml/mestrado/ufpa/modelo/Erro.class
+sml/mestrado/ufpa/util/ConverteUtil.class
 sml/mestrado/ufpa/projeto/manager/App.class
 sml/mestrado/ufpa/manager/Loggable.class
+sml/mestrado/ufpa/manager/ApectManagerAPI.class
+sml/mestrado/ufpa/repositorio/AbstractRepositorio.class
+sml/mestrado/ufpa/modelo/Parametro.class
+sml/mestrado/ufpa/modelo/Requisicao.class
+sml/mestrado/ufpa/servicos/AspectManagerService.class
+sml/mestrado/ufpa/repositorio/AspectManagerRepositorio.class
